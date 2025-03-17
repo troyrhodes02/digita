@@ -34,8 +34,8 @@ export async function handleCommand(message: Message) {
     }, 10000); // 10 seconds
 
     // Provide your actual GitHub details.
-    const owner = 'tavariscodes';
-    const repo = 'selfcare-backend';
+    const owner = 'troyrhodes02';
+    const repo = 'digita';
 
     // Perform the analysis.
     const analysis = await analyzeRepositoryDetailed(owner, repo, branch);
